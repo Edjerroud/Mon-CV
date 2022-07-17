@@ -33,7 +33,7 @@ li {
 }
 header {
     text-align: center;
-    height: 150vh;
+    /* height: 100vh; */
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
 }
@@ -96,4 +96,104 @@ header .button:hover a {
     color: #e2dedb;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
+}
+
+/* ------------------ LANGAGES -----------------------*/
+
+#langages {
+    padding: 80px 80px 80px 50px;
+    margin: 20px 0 0 6%;
+    height: 650px;
+    width: 40%;
+    max-width: 640px;
+    background: linear-gradient(164deg,#f12711 0%, rgba(241,39,17,0.35) 80%);
+    clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0 100%);
+}
+#langages .bar {
+    padding: 7px 0 20px 0;
+    letter-spacing: 0.5em;
+}
+
+/* ------------------ FORMATION -----------------------*/
+
+#formation {
+    position: relative;
+    top : -200px;
+    float: right;
+    margin-right: 5%;
+    padding: 90px 20px 60px 60px;
+    /* width: 20px; */
+    max-width: 630px;
+    background: linear-gradient(19deg, rgba(0,180,219,0.69) 0%, #0083b0 80%);
+    clip-path: polygon(0 3%, 100% 13%, 100% 100%, 0% 100%);
+}
+#école {
+    padding-top: 20px;
+}
+#OCR{
+    padding: 50px 0 0 15%;
+}
+#KA{
+    padding: 50px 0 0 30%;
+}
+#formation h4 {
+    font-weight: bold;
+    letter-spacing: 0.10em;
+    padding-bottom: 10px;
+    color: #005978;
+    text-shadow: -1px -1px 1px #35B4D5;
+}
+.counter {
+    display: flex;
+    text-align: center;
+}
+.data {
+    border: 1px solid #35B4D5;
+    width: 170px;
+    margin: 0 4%;
+    box-shadow: 0 0 8px #1C9DC4;
+    padding: 5px 20px;
+}
+.counter-value {
+    font-size: 2em;
+}
+.data-span {
+    font-size: 1.8em;
+}
+
+/* ------------------ PARCOURS -----------------------*/
+
+#parcours {
+    max-width: 800px;
+    margin: 640px auto 180px auto;
+    padding: 40px 30px 100px 30px;
+    background: url(./media/parcours.jpg) no-repeat fixed 50px 50px;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: -1px -1px 8px #283655;
+}
+#parcours h3 {
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+#parcours h4 {
+    font-size: 1.6em;
+    color:#ff4e50; 
+    margin-left: 20px;
+}
+#parcours h6 {
+    font-style: italic;
+    color: #edca21;
+    margin-left: 20px;
+}
+#parcours p {
+    line-height: 1.9em;
+}
+.timeline {
+    border-top: 3px solid;
+    border-image: linear-gradient(to right,#f9d423, #ff4e50);
+    border-image-slice: 1;
+    margin: 0;
+    padding: 40px;
+    position:relative;
 }
